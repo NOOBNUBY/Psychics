@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation("io.github.monun:kommand-api:3.1.7")
+    implementation("xyz.icetang.lib:kommand-api:3.1.10")
     implementation("io.github.monun:invfx-api:3.3.2")
 }
 

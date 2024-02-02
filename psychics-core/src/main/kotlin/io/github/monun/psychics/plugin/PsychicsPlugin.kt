@@ -17,7 +17,6 @@
 
 package io.github.monun.psychics.plugin
 
-import io.github.monun.kommand.kommand
 import io.github.monun.psychics.PsychicManager
 import io.github.monun.psychics.Psychics
 import io.github.monun.psychics.attribute.EsperStatistic
@@ -29,6 +28,7 @@ import io.github.monun.tap.fake.FakeEntityServer
 import org.bukkit.Bukkit
 import org.bukkit.configuration.serialization.ConfigurationSerialization
 import org.bukkit.plugin.java.JavaPlugin
+import xyz.icetang.lib.kommand.kommand
 import java.io.File
 
 /**

@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.7.21"
+    kotlin("jvm") version "1.9.22"
 }
 
 java {
@@ -22,7 +22,7 @@ subprojects {
     }
 
     dependencies {
-        compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
+        compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
 
         implementation(kotlin("stdlib"))
         implementation(kotlin("reflect"))

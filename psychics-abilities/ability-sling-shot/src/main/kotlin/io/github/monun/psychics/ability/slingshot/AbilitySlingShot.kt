@@ -57,7 +57,7 @@ class AbilitySlingShot : Ability<AbilityConceptSlingShot>(), Listener {
     fun onPlayerInteract(event: PlayerInteractEvent) {
         val action = event.action
 
-        if (action == Action.LEFT_CLICK_AIR || action == Action.LEFT_CLICK_BLOCK) {
+        if (action.isLeftClick) {
             event.item?.let { item ->
                 if (item.type == Material.COBBLESTONE) {
                     val player = esper.player

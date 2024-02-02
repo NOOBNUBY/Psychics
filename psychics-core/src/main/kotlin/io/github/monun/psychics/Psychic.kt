@@ -47,7 +47,7 @@ import java.util.*
 import kotlin.math.max
 
 class Psychic internal constructor(
-    val concept: PsychicConcept
+    var concept: PsychicConcept
 ) {
     lateinit var plugin: PsychicsPlugin
         private set
